@@ -2,7 +2,7 @@ import React, {Fragment, useState, useEffect} from 'react';
 import './App.css';
 import axios from "axios";
 
-function Users() {
+function Users() { // Seconde méthode de listage des users
     const [data, setData] = useState([]);
 
     useEffect(() => {
